@@ -1,38 +1,825 @@
-.App {
-  text-align: center;
+
+body{
+    background-color: rgb(2, 24, 32);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .navbar-nav{
+    padding-left: 63rem;
+} */
+.section-2{
+
+    height: 35rem;
+    position :relative;
+    background-color: rgb(2, 24, 32);
+}
+.dhruvil{
+  width: 25rem;
+  height: 25rem;
+  margin-left: 60rem;
+  margin-top: 8rem;
+  border: 2px solid;
+  border-radius: 20px 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.img1{
+width: 95.1rem;
+    height: 50rem;
+    display: block;
+}
+.one{
+    position: absolute;
+  top: 130px;
+  left: 29rem;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 200px;
+    position: absolute;
+    margin-left: -10px;
+    top: 0;
+    border-radius: 3px;
+  }
+
+  .section-3{
+    color: white;
+position: relative;
+padding-left: 13rem;
+animation-duration: 3s;
+animation-name: slidein;
+animation-iteration-count:inherit;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 35%;
+      width: 300%;
+    }
+  
+    section-3 {
+      margin-left: 0%;
+      width: 35%;
+    }
+  }
+
+
+  .section-4{
+    margin-top: 5rem;
+    width: auto;
+    height: 15rem;
+    margin-left: 5rem;
+    
+
+}
+.section4one{
+    display: inline-block;
+    margin-left: 5rem;
+}
+.box1{
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    background: linear-gradient(0deg, #000, #272727);
+}
+
+.box1:hover{
+  animation: glow 0.3s infinite;
+}
+
+@keyframes glow {
+  0%,100%{
+    box-shadow: 0 0 40px rgb(105, 105, 222) ;
+  }
+  50%{
+    box-shadow: 0 0 40px  rgb(138, 217, 138);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+.boximg1{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.section-5{
+  margin-left: 22rem;
+  margin-top: 10rem;
+}
+
+
+.section5one{
+  margin-left: 10rem;
+  margin-top: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
+.img2{
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid white;
+  border-radius: 25px 25px;
+margin: 30px;
+}
+
+.img2:hover{
+  animation: grow 0.3s infinite;
+}
+
+@keyframes grow{
+  0%,100%{
+    box-shadow: 0 0 40px blue;
+  }
+  50%{
+    box-shadow:  0 0 40px green;
+  }
+}
+
+.section-6{
+  position: relative;
+  margin-left: 10rem;
+
+}
+.section-7{
+  height: 25rem;
+width: 17rem;
+border:  1px solid white;
+border-radius: 20px 20px;
+display: inline-block;
+margin: 4px;
+margin-left: 8rem;
+}
+
+
+
+
+.under{
+  margin-top: 40px;
+  margin-left: 18px;
+  border-radius: 20px 20px;
+}
+.undername{
+  margin-top: 30px;
+  margin-left: 55px;
+  color: aliceblue;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.section-8{
+  height: 8rem;
+  border: 1px solid white;
+  margin-top: 10rem;
+}
+.section-one8{
+  margin-left: 37rem;
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  margin-top: 20px;
+
+}
+.icon{
+  padding-left: 30rem;
+  margin-top: 20px;
+}
+.icons{
+  display: inline-block;
+  margin: 5px ;
+  
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width:900px) {
+  .section-2{
+    height: 30rem;
+  }
+  .one{
+    left: 18rem;
+    margin-top: 20rem;
+  }
+ 
+  .dhruvil{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 19rem;
+    margin-top: 5rem;
+  }
+
+  .section-3{
+    padding-left: 2rem;
+    margin-top: 14rem;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 35%;
+      width: 300%;
+    }
+  
+    section-3 {
+      margin-left: 0%;
+      width: 35%;
+    }
+  }
+
+  .section4one{
+    margin-left: 2rem;
+  }
+  .pre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ .box1{
+  margin: 10px;
+ }
+ .section-5{
+  margin-top: 25rem;
+  margin-left: 5rem;
+ }
+ .section5one{
+  margin-left: 18rem;
+ }
+ .section-6{
+  margin-top: 3rem;
+  margin-left: 3rem;
+ }
+ .section-7{
+  height: 20rem;
+width: 13rem;
+border:  1px solid white;
+border-radius: 20px 20px;
+display: inline-block;
+margin-left: 5rem;
+
+}
+.section7one{
+  padding-bottom: 10px;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.under{
+  margin-top: 40px;
+  margin-left: 18px;
+  border-radius: 20px 20px;
+  width: 10rem;
+  height: 10rem;
 }
+.undername{
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-8{
+  margin-top: 20px;
+}
+.section-one8{
+  margin-left: 19rem;
+}
+.icon{
+  margin-left: -8rem;
+}
+
+ }
+
+ 
+@media screen and (max-width:795px) {
+  .section-2{
+    height: 30rem;
+  }
+  .one{
+    left: 10rem;
+    margin-left: 4rem;
+  }
+  .dhruvil{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+  }
+
+
+  .section-3{
+    padding-left: 5rem;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 35%;
+      width: 300%;
+    }
+  
+    section-3 {
+      margin-left: 0%;
+      width: 35%;
+    }
+  }
+
+  .section4one{
+    margin-left: 2rem;
+  }
+  .pre{
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ .box1{
+  margin: 5px;
+ }
+ .section-5{
+  margin-top: 25rem;
+  margin-left: 3rem;
+  
+ }
+ .section5one{
+  margin-left: 18rem;
+ }
+
+ .section-6{
+  margin-top: 3rem;
+  margin-left: 3rem;
+ }
+ .section-7{
+  height: 20rem;
+width: 13rem;
+border:  1px solid white;
+border-radius: 20px 20px;
+display: inline-block;
+margin-left: 7rem;
+
+}
+.section7one{
+  padding-bottom: 10px;
+  margin: 5px;
+}
+
+.under{
+  margin-top: 40px;
+  margin-left: 18px;
+  border-radius: 20px 20px;
+  width: 10rem;
+  height: 10rem;
+}
+.undername{
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-8{
+  margin-top: 20px;
+}
+.section-one8{
+  margin-left: 19rem;
+}
+.icon{
+  margin-left: -8rem;
+}
+
+ }
+
+ 
+@media screen and (max-width:500px) {
+  .section-2{
+    height: 30rem;
+  }
+  .one{
+    left: 3rem;
+  }
+  .dhruvil{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 6rem;
+    margin-top: 5rem;
+  }
+
+  .section-3{
+    padding-left: 2rem;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 35%;
+      width: 300%;
+    }
+  
+    section-3 {
+      margin-left: 0%;
+      width: 35%;
+    }
+  }
+
+  .pre{
+    padding-left: 10px;
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section4one{
+    margin-left: 2rem;
+  }
+ 
+ .box1{
+  margin: 10px;
+ }
+
+ .section-5{
+  margin-top: 55rem;
+  margin-left: 2rem;
+  
+ }
+ .section5one{
+  margin-left: 11rem;
+
+ }
+ .img2{
+  margin: 14px;
+ }
+
+ .section-6{
+  margin-top: 3rem;
+  margin-left: 2rem;
+ }
+
+ .section6two{
+  font-size: 22px;
+  padding-left: -12px;
+  }
+  
+ .section-7{
+height: 20rem;
+width: 20rem;
+border:  1px solid white;
+border-radius: 20px 20px;
+display: inline-block;
+margin-left: 5rem;
+
+ }
+.section7one{
+  padding-bottom: 10px;
+  margin: 5px;
+}
+
+.under{
+  margin-top: 35px;
+  margin-left: 18px;
+  border-radius: 20px 20px;
+  width: 17rem;
+  height: 13rem;
+}
+.undername{
+  margin-left: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-8{
+  margin-top: 20px;
+}
+.section-one8{
+  margin-left: 8rem;
+}
+.icon{
+margin-left: -15rem;
+}
+
+ }
+
+
+
+
+ @media screen and (max-width:420px) {
+  .myname{
+    font-size: 17px;
+  }
+  .section-2{
+    height: 30rem;
+  }
+  .one{
+    margin-left: -20px;
+  }
+ 
+  .dhruvil{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+
+  .section-3{
+    padding-left: 1rem;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 35%;
+      width: 300%;
+    }
+  
+    section-3 {
+      margin-left: 0%;
+      width: 35%;
+    }
+  }
+
+
+  .pre{
+    padding-left: 3px;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section4one{
+    margin-left: 2px;
+  }
+ 
+ .box1{
+  margin: 10px;
+ }
+
+ .section-5{
+  margin-top: 55rem;
+  margin-left: 2rem;
+  
+ }
+ .section5one{
+  margin-left: 11rem;
+
+ }
+ .img2{
+  margin: 14px;
+ }
+
+ .section-6{
+  margin-top: 3rem;
+  margin-left: 2rem;
+ }
+
+ .section6two{
+  font-size: 22px;
+  padding-left: -12px;
+  }
+  
+ .section-7{
+height: 20rem;
+width: 20rem;
+border:  1px solid white;
+border-radius: 20px 20px;
+display: inline-block;
+margin-left: 3rem;
+
+ }
+.section7one{
+  padding-bottom: 10px;
+  margin: 7px;
+}
+
+.under{
+  margin-top: 35px;
+  margin-left: 18px;
+  border-radius: 20px 20px;
+  width: 17rem;
+  height: 13rem;
+}
+.undername{
+  margin-left: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-8{
+  width: auto;
+  margin-top: 20px;
+}
+.section-one8{
+  margin-left: 5rem;
+}
+.icon{
+margin-left: -15rem;
+}
+
+ }
+
+
+ 
+
+ @media screen and (max-width:400px) {
+  .myname{
+    font-size: 17px;
+  }
+  .section-2{
+    height: 30rem;
+  }
+  .one{
+    left: 5rem;
+  }
+   
+  .dhruvil{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+
+  .section-3{
+    padding-left: 1rem;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 35%;
+      width: 300%;
+    }
+  
+    section-3 {
+      margin-left: 0%;
+      width: 35%;
+    }
+  }
+
+  .pre{
+    padding-left: 3px;
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section4one{
+    margin-left: 2px;
+  }
+ 
+ .box1{
+  margin: 10px;
+ }
+
+ .section-5{
+  margin-top: 55rem;
+  margin-left: 2rem;
+  
+ }
+ .section5one{
+  margin-left: 11rem;
+
+ }
+ .img2{
+  margin: 14px;
+ }
+
+ .section-6{
+  margin-top: 3rem;
+  margin-left: 2rem;
+ }
+
+ .section6two{
+  font-size: 22px;
+  padding-left: -12px;
+  }
+  
+ .section-7{
+height: 20rem;
+width: 20rem;
+border:  1px solid white;
+border-radius: 20px 20px;
+display: inline-block;
+margin-left: 3rem;
+
+ }
+.section7one{
+  padding-bottom: 10px;
+  margin: 7px;
+}
+
+.under{
+  margin-top: 35px;
+  margin-left: 18px;
+  border-radius: 20px 20px;
+  width: 17rem;
+  height: 13rem;
+}
+.undername{
+  margin-left: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-8{
+  width: auto;
+  margin-top: 20px;
+}
+.section-one8{
+  margin-left: 5rem;
+}
+.icon{
+margin-left: -15rem;
+}
+
+ }
+
+
+ @media screen and (max-width:371) {
+  .myname{
+    font-size: 17px;
+  }
+  .section-2{
+    height: 30rem;
+  }
+  .one{
+    left: 5rem;
+  }
+   
+  .dhruvil{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+
+  .section-3{
+    padding-left: 1rem;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 35%;
+      width: 300%;
+    }
+  
+    section-3 {
+      margin-left: 0%;
+      width: 35%;
+    }
+  }
+
+  .pre{
+    padding-left: 3px;
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section4one{
+    margin-left: 2px;
+  }
+ 
+ .box1{
+  margin: 10px;
+ }
+
+ .section-5{
+  margin-top: 55rem;
+  margin-left: 2rem;
+  
+ }
+ .section5one{
+  margin-left: 11rem;
+
+ }
+ .img2{
+  margin: 14px;
+ }
+
+ .section-6{
+  margin-top: 3rem;
+  margin-left: 2rem;
+ }
+
+ .section6two{
+  font-size: 22px;
+  padding-left: -12px;
+  }
+  
+ .section-7{
+height: 20rem;
+width: 20rem;
+border:  1px solid white;
+border-radius: 20px 20px;
+display: inline-block;
+margin-left: 3rem;
+
+ }
+.section7one{
+  padding-bottom: 10px;
+  margin: 7px;
+}
+
+.under{
+  margin-top: 35px;
+  margin-left: 18px;
+  border-radius: 20px 20px;
+  width: 17rem;
+  height: 13rem;
+}
+.undername{
+  margin-left: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-8{
+  margin-top: 20px;
+  width: 5rem;
+}
+.section-one8{
+  margin-left: 5rem;
+}
+.icon{
+margin-left: -20rem;
+}
+
+ }
+
+ 
+
+
+
+
+
